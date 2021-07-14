@@ -1,0 +1,5 @@
+site_name: Structurizr MkDocs Sample
+site_url: https://example.com/
+
+plugins:
+  - mermaid2
