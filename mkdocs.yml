@@ -1,5 +1,5 @@
 site_name: Structurizr MkDocs Sample
-site_url: https://example.com/
+site_url: https://jbrestan.github.io/structurizr-mkdocs-pages/
 
 plugins:
     - search
@@ -10,4 +10,3 @@ plugins:
 
 theme:
     name: material
-
