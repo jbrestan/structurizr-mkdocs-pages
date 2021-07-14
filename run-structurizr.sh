@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 DOCS_PATH=$( cd "$(dirname "$0")" ; pwd -P )
 echo "Starting structurizr/lite in $DOCS_PATH"
 docker pull structurizr/lite
