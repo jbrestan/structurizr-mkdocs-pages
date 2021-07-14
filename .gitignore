@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Structurizr logs and artifacts
+eula.properties
+workspace.json
+logs/
+images/
+graphviz/
