@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+# Welcome
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This repo serves as an example of lightweight local-only or static pages Structurizr hosting using MkDocs to serve generated diagrams as well as additional documentation.
 
-## Commands
+## Diagram From File
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+This diagram has been exported to a Mermaid file from the Structurizr workspace/model, and included using mkdocs macros plugin.
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+```mermaid
+{% include 'diagrams/structurizr-Diagram1.mmd' %}
+```
